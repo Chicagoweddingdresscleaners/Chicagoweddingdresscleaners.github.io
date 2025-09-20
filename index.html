@@ -2,64 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Efficiency Heating & Cooling | Portland HVAC Services</title>
+  <title>Chicago Wedding Dress Cleaners | Gown Cleaning & Preservation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Basic reset */
+    /* Reset & base */
     * { margin:0; padding:0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; line-height:1.6; color: #333; background: #f7f7f7; }
-    .container { max-width: 900px; margin: auto; padding: 20px; background: white; }
-    header { text-align: center; margin-bottom: 30px; }
-    header h1 { font-size: 2.5em; color: #0d47a1; }
-    header p { font-size: 1.2em; color: #555; }
-    nav { margin-bottom: 20px; text-align: center; }
-    nav a { margin: 0 10px; text-decoration: none; color: #0d47a1; font-weight: bold; }
-    nav a:hover { color: #1565c0; }
-    .hero { background: #e3f2fd; padding: 30px; border-radius: 8px; margin-bottom: 30px; }
-    .hero h2 { font-size: 2em; color: #0d47a1; }
-    .hero p { font-size: 1.1em; color: #444; }
-    .services { margin-bottom: 30px; }
-    .services h3 { font-size: 1.8em; color: #0d47a1; margin-bottom: 10px; }
-    .services ul { list-style: disc inside; }
-    .services ul li { margin: 8px 0; }
-    .contact { text-align: center; margin-top: 30px; }
-    .contact a { display: inline-block; padding: 12px 30px; background: #0d47a1; color: white; text-decoration: none; border-radius: 4px; }
-    .contact a:hover { background: #1565c0; }
-    footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; background: #fafafa; line-height: 1.6; }
+    a { text-decoration: none; color: #c0392b; }
+    a:hover { text-decoration: underline; }
+
+    /* Container */
+    .container { max-width: 1000px; margin: 0 auto; padding: 20px; background: #fff; }
+
+    /* Header */
+    header { text-align: center; padding: 40px 0; }
+    header h1 { font-size: 2.8em; color: #c0392b; }
+    header p { font-size: 1.2em; color: #666; margin-top: 10px; }
+
+    /* Navigation */
+    nav { text-align: center; margin-bottom: 30px; }
+    nav a { margin: 0 15px; font-size: 1em; color: #c0392b; font-weight: bold; }
+    nav a:hover { color: #e74c3c; }
+
+    /* Hero section */
+    .hero { background: #eae6e6; padding: 40px; border-radius: 8px; margin-bottom: 40px; text-align: center; }
+    .hero h2 { font-size: 2em; color: #8b0000; margin-bottom: 15px; }
+    .hero p { font-size: 1.1em; color: #555; }
+
+    /* Services */
+    .services { margin-bottom: 40px; }
+    .services h3 { font-size: 1.8em; color: #c0392b; margin-bottom: 20px; }
+    .services .service-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .services .service-item { background: #f4f4f4; padding: 20px; border-radius: 6px; }
+    .services .service-item h4 { font-size: 1.3em; color: #b22222; margin-bottom: 10px; }
+    .services .service-item p { font-size: 1em; color: #444; }
+
+    /* About section */
+    .about { margin-bottom: 40px; padding: 20px; background: #fdecea; border-radius: 6px; }
+    .about h3 { font-size: 1.8em; color: #c0392b; margin-bottom: 15px; }
+    .about p { font-size: 1em; color: #555; }
+
+    /* Contact section */
+    .contact { background: #fff; padding: 30px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 40px; }
+    .contact h3 { font-size: 1.8em; color: #c0392b; margin-bottom: 15px; }
+    .contact p { font-size: 1.1em; margin: 8px 0; color: #333; }
+    .contact a.phone { display: inline-block; margin-top: 15px; padding: 12px 25px; background: #c0392b; color: white; font-weight: bold; border-radius: 4px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px 0; border-top: 1px solid #ddd; color: #777; font-size: 0.9em; }
   </style>
 </head>
 <body>
+
   <div class="container">
+
     <header>
-      <h1>Efficiency Heating & Cooling</h1>
-      <p>Your trusted HVAC service in Portland and surrounding areas</p>
+      <h1>Chicago Wedding Dress Cleaners</h1>
+      <p>35+ Years of Wedding Gown Cleaning, Preservation & Restoration Excellence</p>
     </header>
+
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://chicagoweddingdresscleaners.com/blog/">Blog</a>
     </nav>
+
     <div class="hero">
-      <h2>Comfort All Year Round</h2>
-      <p>We specialize in heating repair, furnace installation, and air conditioning maintenance to ensure your home stays warm in winter and cool in summer.</p>
+      <h2>Your Gown Deserves the Best</h2>
+      <p>We specialize in bridal gown cleaning, preservation, restoration, and more. Trusted by Chicago brides for over three decades.</p>
     </div>
-    <div class="services">
+
+    <section id="services" class="services">
       <h3>Our Services</h3>
-      <ul>
-        <li>Furnace & Heater Repair & Installation</li>
-        <li>Air Conditioning Service & Maintenance</li>
-        <li>Duct Cleaning & Ventilation</li>
-        <li>Emergency HVAC Response</li>
-      </ul>
-    </div>
-    <div class="contact">
-      <p>Need help today?</p>
-      <a href="mailto:info@eheatcool.com">Contact Us</a>
-    </div>
+      <div class="service-list">
+        <div class="service-item">
+          <h4>Wedding Dress Cleaning</h4>
+          <p>Post-ceremony cleaning to remove stains, dirt, and sweat, ensuring your gown looks like new again.</p>
+        </div>
+        <div class="service-item">
+          <h4>Gown Preservation</h4>
+          <p>Preserve your gown in acid-free box, specialized packing, long life for your sentimental dress.</p>
+        </div>
+        <div class="service-item">
+          <h4>Emergency Gown Cleaning</h4>
+          <p>Fast rush services for last-minute emergencies so your dress looks flawless.</p>
+        </div>
+        <div class="service-item">
+          <h4>Restoration & Repair</h4>
+          <p>Repair torn lace, loose beads, fabric damage—bringing life back to heirloom gowns.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h3>About Us</h3>
+      <p>Chicago Wedding Dress Cleaners has cleaned and preserved gowns for over 35 years. We’re family-owned, dedicated, with a reputation for excellence. Free pickup & delivery service across Chicagoland for gowns and special dresses.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact Us</h3>
+      <p>Phone (Chicago): (312) 313-7950</p>
+      <p>Phone (West Suburbs): (630) 445-0603</p>
+      <p>Phone (North Suburbs): (224) 801-3200</p>
+      <p>Phone (South Suburbs): (708) 816-5300</p>
+      <a href="tel:3123137950" class="phone">Tap to Call</a>
+      <p style="margin-top:10px;">1234 Sample Street, Chicago, IL 606XX</p>
+      <p><a href="mailto:info@chicagoweddingdresscleaners.com">Email Us</a></p>
+    </section>
+
     <footer>
-      &copy; 2025 Efficiency Heating & Cooling. All rights reserved.
+      &copy; 2025 Chicago Wedding Dress Cleaners. All Rights Reserved.
     </footer>
+
   </div>
+
 </body>
 </html>
